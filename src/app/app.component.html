@@ -3,4 +3,9 @@
     Welcome to {{ title }}!
   </h1>
 </div>
-<h2>Here are some links to help you start: </h2>
+
+<div>
+  <button (click)='login()'>google login</button>
+  <button (click)='logout()'>google logout</button>
+</div>
+<pre>{{ user | json }}</pre>
